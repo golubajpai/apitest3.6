@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Api-Test
+Version: 0.0.1
+Summary: A package to test apis
+Home-page: https://github.com/golubajpai/apitest3.6
+Author: Priyam Bajpai
+Author-email: priyambajpai302@gmail.com
+License: UNKNOWN
+Description: 1. install the requirements.txt
+        by  using "pip3 install -r requirements.txt"
+        
+        
+        # ApiTestGenerics
+        
+        pytest --version   # shows where pytest was imported from
+        pytest --fixtures  # show available builtin function arguments
+        pytest -h | --help # show help on command line and config file options
+        
+        pytest -n=(no. of threads)= you can run multiple apis
+        pytest -v = to run the pytest command
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
