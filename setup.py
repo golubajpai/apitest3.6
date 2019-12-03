@@ -27,6 +27,7 @@ install_requires=[
 "py==1.8.0",
 "pyparsing==2.4.5",
 "pytest==5.3.1",
+"pytest-xdist==1.30.0",
 "python-dateutil==2.8.1",
 "pytz==2019.3",
 "requests==2.22.0",

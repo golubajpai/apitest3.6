@@ -34,7 +34,7 @@ class ExceptionHandeling:
 
 class ApiTest:
 
-	def __init__(self,apiservice,success_status_code,Request_Type,params=None):
+	def __init__(self,apiservice,Request_Type,params=None):
 		a=ExceptionHandeling()
 		data=a.exception()
 		#import pdb;pdb.set_trace()
@@ -45,7 +45,7 @@ class ApiTest:
 		print(self.owner)
 		self.apikey=data['api_key']
 		self.params=params
-		self.success_status_code=success_status_code
+		
 		
 
 
