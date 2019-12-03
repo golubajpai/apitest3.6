@@ -44,3 +44,5 @@ class Test_UserHandling2:
         a=ApiTest("signup/","post",{"email":"golubajpai302@gmail.com","password":"Priyam@13"})
         self.k=a.api()
         assert a.success_status_code==404
+
+

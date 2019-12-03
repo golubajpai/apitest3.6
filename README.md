@@ -1,8 +1,7 @@
-1. install the requirements.txt
-by  using "pip3 install -r requirements.txt"
 
-2. use package by setup.py 
-2.1 install virtualenv  and activate them then run setup.py install 
+
+1. use package by setup.py 
+1.1 install virtualenv  and activate them then run setup.py install 
 # ApiTestGenerics
 
 pytest --version   # shows where pytest was imported from
