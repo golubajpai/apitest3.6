@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
 install_requires=[
    "attrs==19.3.0",
-"certifi==2019.11.28",
+"certifi==2022.12.7",
 "chardet==3.0.4",
 "idna==2.8",
 "importlib-metadata==1.1.0",
